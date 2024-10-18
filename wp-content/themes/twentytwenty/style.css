@@ -6525,7 +6525,7 @@ a.to-the-top > * {
 
 	/* Blocks -------------------------------- */
 
-	/* BLOCK: PULLQUOTE */
+	/* BLOCK: PULLQUOTE */k
 
 	.wp-block-pullquote.is-style-solid-color.alignleft::before,
 	.wp-block-pullquote.is-style-solid-color.alignright::before {
@@ -6553,6 +6553,7 @@ section .section-title {
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
+	margin-left: 45px;
 }
 #footer a {
     color: #ffffff;
@@ -6607,3 +6608,18 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+.image-left-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-image {
+    margin-right: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+}
+
